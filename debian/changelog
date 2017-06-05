@@ -1,4 +1,10 @@
-kaidan (0.2.0-dev+git20170501-1) UNRELEASED; urgency=medium
+kaidan (0.2.0-dev+git20170605-1) sid; urgency=medium
+
+  * New development version from VCS
+
+ -- LNJ <git@lnj.li>  Mon, 05 Jun 2017 22:54:18 +0200
+
+kaidan (0.2.0-dev+git20170501-1) sid; urgency=medium
 
   * Update version from git
 
