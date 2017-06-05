@@ -1,3 +1,9 @@
+kaidan (0.2.0-dev+git20170501-1) UNRELEASED; urgency=medium
+
+  * Update version from git
+
+ -- JBBgameich <jbb.mail@gmx.de>  Mon, 01 May 2017 19:45:09 +0200
+
 kaidan (0.0.1-1) experimental; urgency=medium
 
   * Initial release of the debian package
