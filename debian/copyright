@@ -18,17 +18,38 @@ License: GPL-3+
  You should have received a copy of the GNU General Public License
  along with this program. If not, see <https://www.gnu.org/licenses/>
  .
+ Additional permission under GNU GPL version 3 section 7
+ .
+ If you modify this Program, or any covered work, by linking or combining
+ it with the OpenSSL library (or a modified version of that library), 
+ containing parts covered by the terms of the OpenSSL License, the 
+ licensors of this Program grant you additional permission to convey 
+ the resulting work.
+ .
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
 Files: misc/kaidan.svg misc/kaidan-128x128.png
 Copyright: 2016-2017 Ilya Bizyaev <bizyaev.game@yandex.ru>
 License: CC-BY-SA-4.0
- License of all media files not listed in here:
- Copyright (C) 2017 Kaidan developers (CC BY-SA 4.0)   
+
+Files: data/images/banner.png
+Copyright: 2016 MBB <mbb-mail@gmx.de>
+License: CC-BY-SA-4.0
+
+Files: data/images/chat.png
+Copyright: 2013 Subtle Patterns, Toptal Designers
+Comment: https://www.toptal.com/designers/subtlepatterns/inspiration-geometry/
+License: CC-BY-SA-3.0
+
+Files: data/images/xmpp.svg
+Copyright: 2016 Dandelion Developers
+Comment: https://github.com/Diaspora-for-Android/dandelion
+License: GPL-3+
 
 Files: debian/*
 Copyright: 2017 JBBgameich <jbb.mail@gmx.de>
+           2017 LNJ <git@lnj.li>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -45,3 +66,4 @@ License: GPL-3+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
