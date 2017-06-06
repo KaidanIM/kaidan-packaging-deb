@@ -1,3 +1,9 @@
+kaidan (0.2.0-1) sid; urgency=medium
+
+  * New upstream release
+
+ -- LNJ <git@lnj.li>  Tue, 06 Jun 2017 23:05:13 +0200
+
 kaidan (0.2.0-dev+git20170605-1) sid; urgency=medium
 
   * New development version from VCS
