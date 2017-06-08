@@ -1,3 +1,9 @@
+kaidan (0.2.1-1) sid; urgency=medium
+
+  * New upstream release
+
+ -- LNJ <git@lnj.li>  Thu, 08 Jun 2017 14:37:28 +0200
+
 kaidan (0.2.0-1) sid; urgency=medium
 
   * New upstream release
