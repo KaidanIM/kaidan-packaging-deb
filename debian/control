@@ -21,7 +21,7 @@ Build-Depends: debhelper (>= 9),
                qtquickcontrols2-5-dev,
                kirigami2-dev,
                cmake
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Homepage: https://github.com/kaidanim/kaidan/
 Vcs-Git: git://github.com/kaidanim/packaging_deb.git
 Vcs-Browser: https://github.com/kaidanim/packaging_deb/
@@ -38,6 +38,7 @@ Depends: libqt5quick5,
          libqt5sql5-sqlite,
          libswiften3,
          libboost-signals1.63.0,
+         libnotify-bin,
          qml-module-qtquick-controls2,
          qml-module-org-kde-kirigami2,
          ${misc:Depends},
