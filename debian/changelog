@@ -1,3 +1,9 @@
+kaidan (0.2.3+dev+gloox-1) UNRELEASED; urgency=medium
+
+  * Changes for gloox rewrite
+
+ -- JBBgameich <jbb.mail@gmx.de>  Sun, 30 Jul 2017 22:02:20 +0200
+
 kaidan (0.2.3-1) unstable; urgency=medium
 
   * New upstream release 
