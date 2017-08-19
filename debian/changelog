@@ -1,3 +1,16 @@
+kaidan (0.3.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- JBBgameich <jbb.mail@gmx.de>  Sat, 19 Aug 2017 17:02:43 +0200
+
+kaidan (0.3.0~dev+git20170803-1) unstable; urgency=medium
+
+  * Changes for gloox rewrite
+  * New pre release 0.3.0-dev 2017.08.03
+
+ -- JBBgameich <jbb.mail@gmx.de>  Sun, 30 Jul 2017 22:02:20 +0200
+
 kaidan (0.2.3-1) unstable; urgency=medium
 
   * New upstream release 

@@ -4,17 +4,7 @@ Priority: optional
 Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
 Build-Depends: debhelper (>= 9),
                zlib1g-dev,
-               libglib2.0-dev,
-               libssl-dev,
-               libxml2-dev,
-               libcrypto++-dev,
-               libpthread-stubs0-dev,
-               libidn11-dev,
-               libminiupnpc-dev,
-               libnatpmp-dev,
-               libswiften-dev,
-               libboost-signals-dev,
-               libboost-program-options-dev,
+               libgloox-dev,
                qtdeclarative5-dev,
                qttools5-dev,
                qtbase5-dev,
@@ -36,8 +26,6 @@ Depends: libqt5quick5,
          libqt5gui5,
          libqt5core5a,
          libqt5sql5-sqlite,
-         libswiften3,
-         libboost-signals1.63.0,
          libnotify-bin,
          qml-module-qtquick-controls2,
          qml-module-org-kde-kirigami2,
@@ -45,8 +33,8 @@ Depends: libqt5quick5,
          ${shlibs:Depends}
 Description: Simple, user-friendly Jabber/XMPP client for every device
  It's providing a modern user-interface using Kirigami and QtQuick. The
- back-end of Kaidan is completely written in C++ using the Swiften Library
- of the Swift Instant Messenger and Qt 5. As Swiften, Kaidan is released
+ back-end of Kaidan is completely written in C++ using the gloox XMPP Library
+ and Qt 5. As gloox, Kaidan is released
  under the GPL (Version 3 or later).
  .
  Kaidan is not finished: Don't expect it to work as well as a finished
