@@ -33,7 +33,7 @@ Depends: libqt5quick5,
          ${shlibs:Depends}
 Description: Simple, user-friendly Jabber/XMPP client for every device
  It's providing a modern user-interface using Kirigami and QtQuick. The
- back-end of Kaidan is completely written in C++ using the gloox XMPP Library 
+ back-end of Kaidan is completely written in C++ using the gloox XMPP Library
  and Qt 5. As gloox, Kaidan is released
  under the GPL (Version 3 or later).
  .
