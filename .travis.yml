@@ -8,9 +8,9 @@ install:
 	- wget https://github.com/JBBgameich/precompiled-kf5-linux/releases/download/KF5.40/whalebuilder_0.5.1_all.deb -O /tmp/whalebuilder.deb && sudo dpkg -i /tmp/whalebuilder.deb
 	- sudo dpkg -i /tmp/whalebuilder.deb
 	- sudo apt install -f
-	- wget https://github.com/KaidanIM/packages/raw/master/pool/main/g/gloox/libgloox17_1.0.20-1_amd64.deb -O /tmp/libgloox17_1.0.20-1_amd64.deb
-	- wget https://github.com/KaidanIM/packages/raw/master/pool/main/g/gloox/libgloox-dev_1.0.20-1_amd64.deb -O /tmp/libgloox-dev_1.0.20-1_amd64.deb
+	- wget https://github.com/KaidanIM/packages/raw/master/pool/main/g/gloox/libgloox17_1.0.20-1_amd64.deb -O /tmp/libgloox.deb
+	- wget https://github.com/KaidanIM/packages/raw/master/pool/main/g/gloox/libgloox-dev_1.0.20-1_amd64.deb -O /tmp/libgloox-dev.deb
 script:
 	- origtargz
 	- dpkg-buildpackage -S -d -us -ui -uc
-	- whalebuilder build whalebuilder/debian:testing --deb /tmp/libgloox17_1.0.20-1_amd64.deb /tmp/libgloox-dev_1.0.20-1_amd64.deb --result --results . ../kaidan_*.dsc
+	- whalebuilder build whalebuilder/debian:testing --deb /tmp/libgloox.deb /tmp/libgloox-dev.deb --result --results . ../kaidan_*.dsc
