@@ -4,13 +4,13 @@ Priority: optional
 Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
 Build-Depends: debhelper (>= 9),
                zlib1g-dev,
-               libgloox-dev,
-               qtdeclarative5-dev,
+               libgloox-dev (>= 1.0.19),
+               qtdeclarative5-dev (>= 5.8.0),
                qttools5-dev,
-               qtbase5-dev,
+               qtbase5-dev (>= 5.8.0),
                qtquickcontrols2-5-dev,
                libqt5svg5-dev,
-               kirigami2-dev,
+               kirigami2-dev (>= 5.42.0),
                cmake,
                extra-cmake-modules (>= 5.40.0)
 Standards-Version: 4.1.1
