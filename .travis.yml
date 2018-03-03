@@ -10,6 +10,7 @@ install:
     - wget https://github.com/KaidanIM/packages/raw/master/pool/main/g/gloox/libgloox17_1.0.20-1_amd64.deb -O /tmp/libgloox.deb
     - wget https://github.com/KaidanIM/packages/raw/master/pool/main/g/gloox/libgloox-dev_1.0.20-1_amd64.deb -O /tmp/libgloox-dev.deb
 script:
+    - wget https://github.com/KaidanIM/Kaidan/archive/v0.3.1.tar.gz -O ../kaidan_0.3.1.orig.tar.gz
     - origtargz
-    - dpkg-buildpackage -S -d -us -ui -uc
+    - dpkg-buildpackage -S -d -us -uc
     - whalebuilder build whalebuilder/debian:testing --deb /tmp/libgloox.deb /tmp/libgloox-dev.deb --result --results . ../kaidan_*.dsc
