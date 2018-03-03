@@ -13,4 +13,4 @@ script:
     - wget https://github.com/KaidanIM/Kaidan/archive/v0.3.1.tar.gz -O ../kaidan_0.3.1.orig.tar.gz
     - origtargz
     - dpkg-buildpackage -S -d -us -uc
-    - whalebuilder build --deb /tmp/libgloox.deb /tmp/libgloox-dev.deb --result --results . whalebuilder/debian:testing ../kaidan_*.dsc
+    - whalebuilder build --deb /tmp/libgloox.deb --deb /tmp/libgloox-dev.deb whalebuilder/debian:testing ../kaidan_*.dsc
