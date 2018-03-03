@@ -7,7 +7,7 @@ install:
 	- sudo apt-get install devscripts wget
 	- wget https://github.com/JBBgameich/precompiled-kf5-linux/releases/download/KF5.40/whalebuilder_0.5.1_all.deb -O /tmp/whalebuilder.deb && sudo dpkg -i /tmp/whalebuilder.deb
 	- sudo dpkg -i /tmp/whalebuilder.deb
-	- sudo apt install -f
+	- sudo apt install -f -y
 	- wget https://github.com/KaidanIM/packages/raw/master/pool/main/g/gloox/libgloox17_1.0.20-1_amd64.deb -O /tmp/libgloox.deb
 	- wget https://github.com/KaidanIM/packages/raw/master/pool/main/g/gloox/libgloox-dev_1.0.20-1_amd64.deb -O /tmp/libgloox-dev.deb
 script:
