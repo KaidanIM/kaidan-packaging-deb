@@ -2,7 +2,7 @@ Source: kaidan
 Section: comm
 Priority: optional
 Maintainer: Kaidan Packaging Team <git@lnj.li>
-Build-Depends: debhelper (>= 10),
+Build-Depends: debhelper (>= 11),
                libgloox-dev (>= 1.0.19),
                qtdeclarative5-dev (>= 5.8.0),
                qttools5-dev,
