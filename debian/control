@@ -25,24 +25,26 @@ Depends: qml-module-qtquick-controls2,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: libnotify-bin
-Description: Simple, user-friendly Jabber/XMPP client for every device
- It's providing a modern user-interface using Kirigami and QtQuick. The
- back-end of Kaidan is completely written in C++ using the gloox XMPP Library
- and Qt 5. As gloox, Kaidan is released
- under the GPL (Version 3 or later).
+Description: A simple, user-friendly Jabber/XMPP client for every device
+ It has a modern user-interface made using Kirigami and QtQuick. The back-end
+ is completely written in C++ using the XMPP client libraray gloox and Qt 5.
  .
- Kaidan is not finished: Don't expect it to work as well as a finished
- messenger will.
+ One of the main ideas behind it is to run the same application on all
+ platforms, including mobile and desktop systems. So it even runs on Android.
+ .
+ Currently there are still many features not implemented, so don't expect it
+ to work as a finished client will do.
 
 Package: kaidan-data
 Architecture: all
-Description: Simple, user-friendly Jabber/XMPP client for every device
- It's providing a modern user-interface using Kirigami and QtQuick. The
- back-end of Kaidan is completely written in C++ using the gloox XMPP Library
- and Qt 5. As gloox, Kaidan is released
- under the GPL (Version 3 or later).
+Description: A simple, user-friendly Jabber/XMPP client for every device
+ It has a modern user-interface made using Kirigami and QtQuick. The back-end
+ is completely written in C++ using the XMPP client libraray gloox and Qt 5.
  .
- Kaidan is not finished: Don't expect it to work as well as a finished
- messenger will
+ One of the main ideas behind it is to run the same application on all
+ platforms, including mobile and desktop systems. So it even runs on Android.
  .
- This package contains architecture-independent data.
+ Currently there are still many features not implemented, so don't expect it
+ to work as a finished client will do.
+ .
+ This package contains architecture independant files.
