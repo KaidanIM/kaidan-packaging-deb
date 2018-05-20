@@ -1,7 +1,10 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@
+	dh $@ --buildsystem=cmake+ninja
 
 override_dh_auto_configure:
 	dh_auto_configure -- -DI18N=1
+
+override_dh_auto_test:
+	true
