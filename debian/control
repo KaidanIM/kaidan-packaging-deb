@@ -9,6 +9,7 @@ Build-Depends: debhelper (>= 9),
                qttools5-dev,
                qtbase5-dev,
                qtquickcontrols2-5-dev,
+               libqt5svg5-dev,
                kirigami2-dev,
                cmake,
                extra-cmake-modules (>= 5.40.0)
