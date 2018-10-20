@@ -2,26 +2,26 @@ Source: kaidan
 Section: comm
 Priority: optional
 Maintainer: Kaidan Packaging Team <git@lnj.li>
-Build-Depends: debhelper (>= 9),
-               libgloox-dev (>= 1.0.19),
-               qtdeclarative5-dev (>= 5.8.0),
-               qttools5-dev,
-               qtbase5-dev (>= 5.8.0),
-               qtquickcontrols2-5-dev,
-               libqt5svg5-dev,
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.40.0),
                kirigami2-dev (>= 5.42.0),
-               cmake,
-               extra-cmake-modules (>= 5.40.0)
-Standards-Version: 4.1.1
+               libgloox-dev (>= 1.0.19),
+               libqt5svg5-dev,
+               qtbase5-dev (>= 5.8.0),
+               qtdeclarative5-dev (>= 5.8.0),
+               qtquickcontrols2-5-dev,
+               qttools5-dev
+Standards-Version: 4.2.1
 Homepage: https://kaidan.im
 Vcs-Git: git://git.kaidan.im/kaidan/kaidan-packaging-deb.git
 Vcs-Browser: https://git.kaidan.im/kaidan/kaidan-packaging-deb
 
 Package: kaidan
 Architecture: any
-Depends: qml-module-qtquick-controls2,
+Depends: kaidan-data,
          qml-module-org-kde-kirigami2,
-         kaidan-data
+         qml-module-qtquick-controls2,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: libnotify-bin
@@ -37,6 +37,7 @@ Description: A simple, user-friendly Jabber/XMPP client for every device
 
 Package: kaidan-data
 Architecture: all
+Depends: ${misc:Depends}
 Description: A simple, user-friendly Jabber/XMPP client for every device
  It has a modern user-interface made using Kirigami and QtQuick. The back-end
  is completely written in C++ using the XMPP client libraray gloox and Qt 5.
