@@ -14,7 +14,7 @@ Build-Depends: cmake,
                qtdeclarative5-dev-tools,
                qtquickcontrols2-5-dev,
                qttools5-dev
-Standards-Version: 4.2.1
+Standards-Version: 4.3.0
 Homepage: https://kaidan.im
 Vcs-Git: git://git.kaidan.im/kaidan/kaidan-packaging-deb.git
 Vcs-Browser: https://git.kaidan.im/kaidan/kaidan-packaging-deb
@@ -50,4 +50,4 @@ Description: A simple, user-friendly Jabber/XMPP client for every device
  Currently there are still many features not implemented, so don't expect it
  to work as a finished client will do.
  .
- This package contains architecture independant files.
+ This package contains architecture independent files.
